@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__social{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.footer__item+.footer__item{
+    margin-left: 20px;
+}
+.footer__item{
+    font-weight: 700;
+}
+@media screen and (max-width: 576px ){
+    .footer{
+        font-size: 14px;
+    }
+}
+

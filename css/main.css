@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__content{
+    max-width: 652px;
+}
+
+.main__title{
+    font-size: 60px;
+}
+.main__text {
+    font-weight: lighter;
+    font-size: 18px;
+    margin: 50px 0px;
+}
+
+@media screen and (max-width: 1400px ){
+    .main__img{
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 992px ){
+    .main__img{
+        max-width: 400px;
+    }
+    .main__title{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width: 576px ){
+    .main{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
